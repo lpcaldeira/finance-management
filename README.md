@@ -6,11 +6,11 @@
 
 ## :camera: Demonstração
 
-![gif](github/GoFinances.gif)
+<!-- ![gif](github/GoFinances.gif)
 ![png1](github/dashboardD.png)
 ![png2](github/dashboardL.png)
 ![png3](github/importD.png)
-![png4](github/importL.png)
+![png4](github/importL.png) -->
 
 ## :rocket: Tecnologias
 
@@ -49,13 +49,26 @@ O Gestão Financeira é um sistema específico para pequenas e médias empresas 
 
 ---
 
+## Itens funcionando:
+
+- Criação de usuário /signup
+- Login /signin
+- JWT
+- Uso do redux com persist pra buscar produtos e transações ao fazer login e nas atualizações de cadastros
+- Listagem das transações na dash
+- Listagem dos valores e aplicação dos impostos
+- Criação das transações
+- Exclusão das transações
+- Backend criado em nodejs
+- Inclusão de imagem no produto
+
 ## Melhorias
 
-1- Unificar telas de login e signup
-2- Criar telas de produtos e taxas usando abas na `dashboard`
-3- Pertimir o cadastro e alteração de tudo usando Material UI Dialogs
-4- Implementar Jest
-5- Utilizar GraphQL
-6- Finalizar a componentização
-7- Possibilitar troca de tema (dark | light)
-8- Adicionar thumb de imagem na listagem das transações e produtos
+- Unificar telas de login e signup
+- Criar telas de produtos e taxas usando abas na `dashboard`
+- Pertimir o cadastro e alteração de tudo usando Material UI Dialogs
+- Implementar Jest
+- Utilizar GraphQL
+- Finalizar a componentização
+- Possibilitar troca de tema (dark | light)
+- Adicionar thumb de imagem na listagem das transações e produtos
